@@ -1,0 +1,508 @@
+2022-05-21 21:37:56,336 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2022-05-21 21:37:56,360 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2022-05-21 21:37:56,361 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2022-05-21 21:37:56,365 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2022-05-21 21:37:56,367 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2022-05-21 21:37:56,386 INFO  [org.jboss.as.security] (MSC service thread 1-16) JBAS013170: Current PicketBox version=4.0.21.Final
+2022-05-21 21:37:56,392 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-10) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2022-05-21 21:37:56,394 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2022-05-21 21:37:56,397 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2022-05-21 21:37:56,407 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 21:37:56,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 21:37:56,463 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2022-05-21 21:37:56,488 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-16) JBAS010417: Started Driver service with driver-name = h2
+2022-05-21 21:37:56,557 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+2022-05-21 21:37:56,564 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-15) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2022-05-21 21:37:56,611 INFO  [org.jboss.remoting] (MSC service thread 1-11) JBoss Remoting version 4.0.6.Final
+2022-05-21 21:37:56,729 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\David M\Documents\wildfly-8.2.0.Final/welcome-content
+2022-05-21 21:37:56,744 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2022-05-21 21:37:56,881 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-14) JBAS017531: Host default-host starting
+2022-05-21 21:37:57,074 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-12) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\deployments
+2022-05-21 21:37:57,113 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-16) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2022-05-21 21:37:57,260 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2022-05-21 21:37:57,554 INFO  [org.jboss.ws.common.management] (MSC service thread 1-16) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2022-05-21 21:37:57,790 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2022-05-21 21:37:57,791 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2022-05-21 21:37:57,792 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4126ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2022-05-21 21:39:55,160 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2022-05-21 21:39:55,426 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2022-05-21 21:39:55,522 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2022-05-21 21:39:55,529 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\David M\Documents\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_311\jre
+	java.io.tmpdir = C:\Users\DAVIDM~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_311\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/David M/Downloads/eclipse-jee-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/David M/Downloads/eclipse-jee-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Eclipse Adoptium\jdk-8.0.312.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\David M\AppData\Local\Microsoft\WindowsApps;C:\Users\David M\.dotnet\tools;C:\Users\David M\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\David M\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\David M\AppData\Roaming\npm;C:\Users\David M\Downloads\eclipse-jee-2021-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_311-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_311
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.311-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final
+	jboss.host.name = david
+	jboss.modules.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = david
+	jboss.qualified.host.name = david
+	jboss.server.base.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = david
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\David M\Documents\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_311\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\David M\Documents\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\David M
+	user.language = en
+	user.name = David M
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2022-05-21 21:39:55,531 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\David M\Documents\wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2022-05-21 21:39:57,127 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2022-05-21 21:39:57,159 INFO  [org.xnio] (MSC service thread 1-14) XNIO version 3.3.0.Final
+2022-05-21 21:39:57,174 INFO  [org.xnio.nio] (MSC service thread 1-14) XNIO NIO Implementation Version 3.3.0.Final
+2022-05-21 21:39:57,209 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2022-05-21 21:39:57,210 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2022-05-21 21:39:57,216 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2022-05-21 21:39:57,221 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2022-05-21 21:39:57,224 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2022-05-21 21:39:57,230 INFO  [org.jboss.as.security] (MSC service thread 1-13) JBAS013170: Current PicketBox version=4.0.21.Final
+2022-05-21 21:39:57,252 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2022-05-21 21:39:57,255 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2022-05-21 21:39:57,317 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-11) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2022-05-21 21:39:57,317 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 21:39:57,318 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 21:39:57,358 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+2022-05-21 21:39:57,359 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-9) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2022-05-21 21:39:57,385 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2022-05-21 21:39:57,407 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-9) JBAS010417: Started Driver service with driver-name = h2
+2022-05-21 21:39:57,506 INFO  [org.jboss.remoting] (MSC service thread 1-14) JBoss Remoting version 4.0.6.Final
+2022-05-21 21:39:57,570 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\David M\Documents\wildfly-8.2.0.Final/welcome-content
+2022-05-21 21:39:57,588 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2022-05-21 21:39:57,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2022-05-21 21:39:57,907 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\deployments
+2022-05-21 21:39:57,997 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-15) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2022-05-21 21:39:58,156 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2022-05-21 21:39:58,447 INFO  [org.jboss.ws.common.management] (MSC service thread 1-15) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2022-05-21 21:39:58,631 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2022-05-21 21:39:58,632 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2022-05-21 21:39:58,632 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 3997ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2022-05-21 21:45:35,767 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2022-05-21 21:45:36,046 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2022-05-21 21:45:36,137 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2022-05-21 21:45:36,144 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\David M\Documents\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_311\jre
+	java.io.tmpdir = C:\Users\DAVIDM~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_311\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/David M/Downloads/eclipse-jee-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/David M/Downloads/eclipse-jee-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Eclipse Adoptium\jdk-8.0.312.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\David M\AppData\Local\Microsoft\WindowsApps;C:\Users\David M\.dotnet\tools;C:\Users\David M\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\David M\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\David M\AppData\Roaming\npm;C:\Users\David M\Downloads\eclipse-jee-2021-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_311-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_311
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.311-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final
+	jboss.host.name = david
+	jboss.modules.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = david
+	jboss.qualified.host.name = david
+	jboss.server.base.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = david
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\David M\Documents\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_311\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\David M\Documents\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\David M
+	user.language = en
+	user.name = David M
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2022-05-21 21:45:36,146 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\David M\Documents\wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2022-05-21 21:45:37,692 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2022-05-21 21:45:37,720 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.0.Final
+2022-05-21 21:45:37,734 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.0.Final
+2022-05-21 21:45:37,781 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2022-05-21 21:45:37,792 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2022-05-21 21:45:37,792 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2022-05-21 21:45:37,805 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2022-05-21 21:45:37,809 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2022-05-21 21:45:37,817 INFO  [org.jboss.as.security] (MSC service thread 1-12) JBAS013170: Current PicketBox version=4.0.21.Final
+2022-05-21 21:45:37,862 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2022-05-21 21:45:37,863 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2022-05-21 21:45:37,866 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2022-05-21 21:45:37,875 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 21:45:37,876 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 21:45:37,892 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2022-05-21 21:45:37,894 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-11) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2022-05-21 21:45:37,942 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2022-05-21 21:45:37,947 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2022-05-21 21:45:38,022 INFO  [org.jboss.remoting] (MSC service thread 1-13) JBoss Remoting version 4.0.6.Final
+2022-05-21 21:45:38,251 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\David M\Documents\wildfly-8.2.0.Final/welcome-content
+2022-05-21 21:45:38,418 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017525: Started server default-server.
+2022-05-21 21:45:38,436 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017531: Host default-host starting
+2022-05-21 21:45:38,626 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-11) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\deployments
+2022-05-21 21:45:38,761 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2022-05-21 21:45:38,928 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2022-05-21 21:45:39,247 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2022-05-21 21:45:39,414 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2022-05-21 21:45:39,415 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2022-05-21 21:45:39,415 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4117ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
+2022-05-21 21:48:08,277 INFO  [org.jboss.as.repository] (XNIO-1 task-1) JBAS014900: Content added at location C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data\content\78\882f142b8860a9b3b913811727ceecb460ea17\content
+2022-05-21 21:48:08,393 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "mysql_connector" (runtime-name: "mysql-connector-java-5.1.41-bin.jar")
+2022-05-21 21:48:08,692 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-16) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2022-05-21 21:48:08,693 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-16) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2022-05-21 21:48:08,713 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-14) JBAS010417: Started Driver service with driver-name = mysql-connector-java-5.1.41-bin.jar_com.mysql.jdbc.Driver_5_1
+2022-05-21 21:48:08,713 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-10) JBAS010417: Started Driver service with driver-name = mysql-connector-java-5.1.41-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2022-05-21 21:48:08,927 INFO  [org.jboss.as.server] (XNIO-1 task-9) JBAS018559: Deployed "mysql_connector" (runtime-name : "mysql-connector-java-5.1.41-bin.jar")
+2022-05-21 21:50:54,544 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/proba]
+2022-05-21 21:50:55,204 ERROR [stderr] (XNIO-1 task-5) Sat May 21 21:50:55 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 21:50:55,475 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-14) JBAS010409: Unbound data source [java:jboss/datasources/proba]
+2022-05-21 21:51:05,250 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010400: Bound data source [java:jboss/datasources/proba]
+2022-05-21 21:51:05,554 ERROR [stderr] (XNIO-1 task-5) Sat May 21 21:51:05 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 21:51:05,660 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010409: Unbound data source [java:jboss/datasources/proba]
+2022-05-21 21:52:01,880 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-12) JBAS010400: Bound data source [java:jboss/datasources/proba]
+2022-05-21 21:52:02,186 ERROR [stderr] (XNIO-1 task-5) Sat May 21 21:52:02 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 21:52:02,292 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-15) JBAS010409: Unbound data source [java:jboss/datasources/proba]
+2022-05-21 21:52:14,738 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-10) JBAS010400: Bound data source [java:jboss/datasources/proba]
+2022-05-21 22:00:32,170 ERROR [stderr] (XNIO-1 task-1) Sat May 21 22:00:32 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 22:06:05,573 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2022-05-21 22:06:05,830 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2022-05-21 22:06:05,940 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2022-05-21 22:06:05,948 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\David M\Documents\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_311\jre
+	java.io.tmpdir = C:\Users\DAVIDM~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_311\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/David M/Downloads/eclipse-jee-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/David M/Downloads/eclipse-jee-2021-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Eclipse Adoptium\jdk-8.0.312.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Users\David M\AppData\Local\Microsoft\WindowsApps;C:\Users\David M\.dotnet\tools;C:\Users\David M\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\David M\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\David M\AppData\Roaming\npm;C:\Users\David M\Downloads\eclipse-jee-2021-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_311-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_311
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.311-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final
+	jboss.host.name = david
+	jboss.modules.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = david
+	jboss.qualified.host.name = david
+	jboss.server.base.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = david
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\David M\Documents\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 8.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_311\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\David M\Documents\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = C:\Users\David M\Documents\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\David M
+	user.language = en
+	user.name = David M
+	user.script = 
+	user.timezone = Europe/Prague
+	user.variant = 
+2022-05-21 22:06:05,950 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\David M\Documents\wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2022-05-21 22:06:07,561 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2022-05-21 22:06:07,584 INFO  [org.xnio] (MSC service thread 1-10) XNIO version 3.3.0.Final
+2022-05-21 22:06:07,595 INFO  [org.xnio.nio] (MSC service thread 1-10) XNIO NIO Implementation Version 3.3.0.Final
+2022-05-21 22:06:07,629 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2022-05-21 22:06:07,652 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2022-05-21 22:06:07,654 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2022-05-21 22:06:07,658 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2022-05-21 22:06:07,669 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2022-05-21 22:06:07,675 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2022-05-21 22:06:07,681 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2022-05-21 22:06:07,692 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Final
+2022-05-21 22:06:07,727 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-9) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2022-05-21 22:06:07,758 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 22:06:07,759 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2022-05-21 22:06:07,787 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2022-05-21 22:06:07,810 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2022-05-21 22:06:07,905 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.6.Final
+2022-05-21 22:06:07,909 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+2022-05-21 22:06:07,929 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2022-05-21 22:06:08,242 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\David M\Documents\wildfly-8.2.0.Final/welcome-content
+2022-05-21 22:06:08,265 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-11) JBAS017525: Started server default-server.
+2022-05-21 22:06:08,295 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-10) JBAS017531: Host default-host starting
+2022-05-21 22:06:08,477 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-11) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\David M\Documents\wildfly-8.2.0.Final\standalone\deployments
+2022-05-21 22:06:08,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-13) JBAS015876: Starting deployment of "mysql_connector" (runtime-name: "mysql-connector-java-5.1.41-bin.jar")
+2022-05-21 22:06:08,624 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2022-05-21 22:06:08,813 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2022-05-21 22:06:09,131 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2022-05-21 22:06:09,148 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2022-05-21 22:06:09,150 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2022-05-21 22:06:09,165 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-9) JBAS010417: Started Driver service with driver-name = mysql-connector-java-5.1.41-bin.jar_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2022-05-21 22:06:09,165 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-10) JBAS010417: Started Driver service with driver-name = mysql-connector-java-5.1.41-bin.jar_com.mysql.jdbc.Driver_5_1
+2022-05-21 22:06:09,167 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:jboss/datasources/proba]
+2022-05-21 22:06:09,271 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "mysql_connector" (runtime-name : "mysql-connector-java-5.1.41-bin.jar")
+2022-05-21 22:06:09,451 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2022-05-21 22:06:09,451 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2022-05-21 22:06:09,452 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4297ms - Started 223 of 279 services (90 services are lazy, passive or on-demand)
+2022-05-21 22:06:27,078 ERROR [stderr] (XNIO-1 task-6) Sat May 21 22:06:27 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 22:21:46,903 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:jboss/datasources/baza]
+2022-05-21 22:21:47,176 ERROR [stderr] (XNIO-1 task-6) Sat May 21 22:21:47 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 22:21:47,292 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010409: Unbound data source [java:jboss/datasources/baza]
+2022-05-21 22:21:52,498 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010400: Bound data source [java:jboss/datasources/baza]
+2022-05-21 22:21:52,805 ERROR [stderr] (XNIO-1 task-6) Sat May 21 22:21:52 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 22:21:52,817 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (XNIO-1 task-6) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: Could not create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:347) [ironjacamar-jdbc-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:354) [ironjacamar-jdbc-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:288) [ironjacamar-jdbc-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1166) [ironjacamar-core-impl-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:446) [ironjacamar-core-impl-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.internalTestConnection(AbstractPool.java:764) [ironjacamar-core-impl-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.jca.core.connectionmanager.pool.strategy.OnePool.testConnection(OnePool.java:91) [ironjacamar-core-impl-1.1.9.Final.jar:1.1.9.Final]
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$TestConnectionInPool.invokeCommandOn(PoolOperations.java:206) [wildfly-connector-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.connector.subsystems.common.pool.PoolOperations$1.execute(PoolOperations.java:87) [wildfly-connector-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:660) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.controller.AbstractOperationContext.doCompleteStep(AbstractOperationContext.java:501) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.controller.AbstractOperationContext.completeStepInternal(AbstractOperationContext.java:298) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:293) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:276) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:150) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.domain.http.server.DomainApiHandler.handleRequest(DomainApiHandler.java:170)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:72)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler$1.run(SubjectDoAsHandler.java:68)
+	at java.security.AccessController.doPrivileged(Native Method) [rt.jar:1.8.0_311]
+	at javax.security.auth.Subject.doAs(Subject.java:422) [rt.jar:1.8.0_311]
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:94) [wildfly-controller-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:68)
+	at org.jboss.as.domain.http.server.security.SubjectDoAsHandler.handleRequest(SubjectDoAsHandler.java:63)
+	at io.undertow.server.handlers.BlockingHandler.handleRequest(BlockingHandler.java:56)
+	at org.jboss.as.domain.http.server.DomainApiCheckHandler.handleRequest(DomainApiCheckHandler.java:83)
+	at io.undertow.security.handlers.AuthenticationCallHandler.handleRequest(AuthenticationCallHandler.java:52)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_311]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_311]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_311]
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'baze'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.8.0_311]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [rt.jar:1.8.0_311]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.8.0_311]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [rt.jar:1.8.0_311]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2205)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.8.0_311]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [rt.jar:1.8.0_311]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.8.0_311]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) [rt.jar:1.8.0_311]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:322) [ironjacamar-jdbc-1.1.9.Final.jar:1.1.9.Final]
+	... 30 more
+
+2022-05-21 22:21:52,843 ERROR [org.jboss.as.controller.management-operation] (XNIO-1 task-6) JBAS014613: Operation ("test-connection-in-pool") failed - address: ([
+    ("subsystem" => "datasources"),
+    ("data-source" => "baza")
+]) - failure description: "JBAS010440: failed to invoke operation: JBAS010447: Connection is not valid"
+2022-05-21 22:21:52,914 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/baza]
+2022-05-21 22:21:56,842 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-16) JBAS010400: Bound data source [java:jboss/datasources/baza]
+2022-05-21 22:21:57,044 ERROR [stderr] (XNIO-1 task-6) Sat May 21 22:21:57 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2022-05-21 22:21:57,151 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) JBAS010409: Unbound data source [java:jboss/datasources/baza]
+2022-05-21 22:22:07,329 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-15) JBAS010400: Bound data source [java:jboss/datasources/baza]
+2022-05-21 22:22:29,706 ERROR [stderr] (XNIO-1 task-1) Sat May 21 22:22:29 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.

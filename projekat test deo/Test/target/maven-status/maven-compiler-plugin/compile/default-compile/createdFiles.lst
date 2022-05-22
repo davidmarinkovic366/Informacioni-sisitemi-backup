@@ -1,0 +1,15 @@
+entities\Pacijent.class
+entities\Smena.class
+services\SmenaService.class
+servicesimpl\SmenaServiceImpl.class
+servicesimpl\IntervencijaServiceImpl.class
+servicesimpl\PacijentServiceImpl.class
+servicesimpl\PregledServiceImpl.class
+services\IntervencijaService.class
+servicesimpl\OsobljeServiceImpl.class
+services\PregledService.class
+services\PacijentService.class
+entities\Osoblje.class
+services\OsobljeService.class
+entities\Intervencija.class
+entities\Pregled.class
